@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Hello world!</title>
+        <title>Home</title>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.7.2/tufte.min.css" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" crossorigin="anonymous">
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" crossorigin="anonymous"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style/tufte.min.css">
+        <link rel="stylesheet" href="/style/katex.min.css">
+        <link rel="stylesheet" href="/style/gruvbox.dark.css">
+        <link rel="stylesheet" href="/style/style.css">
     </head>
 
     <body>
-        <p>Hello world! This is <a href="http://www.arnavsastry.com">my website</a>.
+        <header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">arknave</a></li>
+            <li><a href="/about">about</a></li>
+            <li><a href="/static/ArnavSastryResume.pdf">resume</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <p>Now with \(\KaTeX\).</p>
+        <article>
+            <h1>Arnav Sastry</h1>
+
+<section>
+<p>Hello world! This is <a href="http://arnavsastry.com/">my website</a>.
+
+<p>Now with <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>KaTeX</mtext></mrow><annotation encoding="application/x-tex">\KaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">K</span><span class="mspace" style="margin-right:-0.17em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span>, and syntax highlighted code.</p>
+
+<figure>
+<pre class="language-js"><code class="language-js"><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"hello world!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+</figure>
+</section>
+
+        </article>
+        <footer>
+    <hr />
+    <span class="git-tag">HEAD: 446180ad2785f2b24905cd39574dbeaa78be87f0
+</span>
+</footer>
+
     </body>
 </html>
